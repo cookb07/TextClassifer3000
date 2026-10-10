@@ -9,9 +9,18 @@ wiki = wikipediaapi.Wikipedia(
 
 # Data categories to be classified
 categories_to_track = {
-    "Technology": ["Artificial Intelligence", "Quantum Computing", "Cloud Computing"],
-    "History": ["Industrial Revolution", "World War II", "American Revolution"],
-    "Science": ["Space exploration", "Biology", "Chemistry"]
+    "Technology": [
+        "Artificial Intelligence", "Quantum Computing", "Cloud Computing", "Cybersecurity", 
+        "Internet of Things", "Virtual Reality", "Augmented Reality", "Machine Learning"
+    ],
+    "History": [
+        "Industrial Revolution", "World War II", "American Revolution", "French Revolution", 
+        "Cold War", "Renaissance", "British Empire", "Ancient Egypt"
+    ],
+    "Science": [
+        "Space exploration", "Biology", "Chemistry", "Genetics", 
+        "Physics", "Astronomy", "Geology", "Neuroscience"
+    ]
 }
 
 data = []
