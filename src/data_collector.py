@@ -26,7 +26,7 @@ for label, topics in categories_to_track.items():
         if page.exists():
             text_content = page.summary
             data.append({
-                "test": text_content,
+                "text": text_content,
                 "category": label,
                 "source_topic": topic
             })
