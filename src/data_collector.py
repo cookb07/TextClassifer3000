@@ -33,9 +33,8 @@ for label, topics in categories_to_track.items():
         page = wiki.page(topic)
 
         if page.exists():
-            text_content = page.summary
             data.append({
-                "text": text_content,
+                "text": page.text,
                 "category": label,
                 "source_topic": topic
             })
